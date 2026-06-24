@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://code.jquery.com/jquery-4.0.0.js"
+        integrity="sha256-9fsHeVnKBvqh3FB2HYu7g2xseAZ5MlN6Kz/qnkASV8U=" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Metal+Mania&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    
+    <div class="container">
+        <div class="round">
+            <img width="100px" class="logo" src="../../public/steamlogo.png" alt="Steam logo">
+        </div>
+        <div class="wrapInputLabel">
+            <label for="nome">Nome</label>
+            <input type="text" placeholder="Insira o nome do usuário:" id="nome">
+        </div>
+        <div class="wrapInputLabel">
+            <label for="senha">Senha</label>
+            <input type="password" placeholder="Insira a senha cadastrada:" id="senha">
+            <div onclick="showPassword()">
+                    <img src="../../public/view.png" alt="Olho" class="eye" id="eye" width="25px">
+                </div>
+            </div>
+            <button class="btnLogin" onclick="login()">Login</button>
+        </div>
+    <div class="errorDiv" id="errorModal">
+        <h3>Usuário ou senha incorretos!</h3>
+        <button onclick="fecharError()">Tentar Novamente</button>
+    </div>    
+    
+<script src="script.js"></script>
+</body>
+</html>

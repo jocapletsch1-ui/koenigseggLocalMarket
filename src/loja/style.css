@@ -1,0 +1,148 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  font-family: 'Roboto', sans-serif;
+  background: #07101b;
+  color: #eef5ff;
+}
+
+body::before {
+  content: '';
+  position: fixed;
+  inset: 0;
+  background: radial-gradient(circle at top left, rgba(96, 186, 255, 0.12), transparent 24%),
+    radial-gradient(circle at bottom right, rgba(255, 110, 122, 0.12), transparent 24%);
+  pointer-events: none;
+}
+
+.header {
+  max-width: 1120px;
+  width: min(100%, 1120px);
+  margin: 0 auto;
+  padding: 24px 28px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.cart-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 18px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.07);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  color: #eef5ff;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-decoration: none;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.cart-link:hover {
+  transform: translateY(-1px);
+  background: rgba(255, 255, 255, 0.12);
+}
+
+.profile {
+  padding: 18px 22px;
+  border-radius: 22px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  max-width: 420px;
+}
+
+.profile h5 {
+  margin: 0 0 10px;
+  font-size: 1rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+}
+
+.profile div {
+  margin: 0;
+  font-size: 0.96rem;
+  color: #d7e4f4;
+  line-height: 1.5;
+}
+
+.profile p {
+  margin: 8px 0 0;
+  font-weight: 700;
+  color: #fff;
+}
+
+main {
+  max-width: 1120px;
+  width: min(100%, 1120px);
+  margin: 0 auto 40px;
+  padding: 0 28px 32px;
+}
+
+h1 {
+  margin: 0;
+  font-size: clamp(2.5rem, 4vw, 4rem);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+p {
+  margin: 12px 0 0;
+  font-size: 1rem;
+  color: #c8d5e5;
+}
+
+h2 {
+  margin: 36px 0 20px;
+  font-size: 1.25rem;
+  letter-spacing: 0.1em;
+  color: #92b2d6;
+}
+
+.wrap {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
+.center {
+  display: grid;
+  justify-items: center;
+}
+
+.card {
+  width: 100%;
+  padding: 22px;
+  border-radius: 24px;
+  background: rgba(255, 255, 255, 0.06);
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.16);
+  transition: transform 0.25s ease;
+}
+
+.card:hover {
+  transform: translateY(-4px);
+}
+
+.card h3 {
+  margin: 0 0 10px;
+  font-size: 1.1rem;
+}
+
+.card p {
+  margin: 0 0 12px;
+  color: #c7d7ef;
+}
+
+.card .price {
+  font-size: 1.05rem;
+  font-weight: 700;
+  color: #ffca6a;
+}

@@ -1,0 +1,179 @@
+:root{
+    --Black: #000000;
+    --Onyx: #111111;
+    --CarbonBlack: #232323;
+    --Graphite: #343434;
+    --CharcoalBrown: #464646;
+    --Charcoal: #575757;
+    --DimGrey: #696969;
+    --Grey: #7a7a7a;
+}
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.errorDiv{
+    display: none;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    height: auto;
+    background-color: gray;
+    gap: 20px;
+    padding: 10px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    font-weight: lighter;
+    box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
+}
+body{
+    background-image: url(/public/guts.jpg);
+    color: var(--Onyx);
+    overflow-x: hidden;
+    min-height: 100vh;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo{
+    border-radius: 100%;
+    width: 500px;
+    height: auto;
+    
+    
+}
+.container{
+    position: relative;
+    backdrop-filter: blur(35px);
+    width: 750px;
+    height: 945px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 2vh;
+    padding: 150px;
+    border-radius: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    left: 600px;
+}   
+.container
+.round{
+    position: absolute;
+    top: 4%;
+}
+label{
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+::placeholder{
+    font-family: Arial, Helvetica, sans-serif;
+}
+input{ 
+    height: 50px;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 0.95rem;
+    box-sizing: border-box;
+    outline: none;
+    margin-top: 10px;
+    background: #ffffff;
+    position: relative;
+    overflow: hidden;
+    transition: all 0.5s ease;
+}
+input:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(94, 94, 94, 0.5);
+}
+input::before{
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(
+    0deg, 
+    transparent, 
+    transparent 30%, 
+    rgba(0,255,255,0.3)
+    );
+    transform: rotate(-45deg);
+    transition: all 0.5s ease;
+    opacity: 0;
+}
+input:hover::before {
+    opacity: 1;
+    transform: rotate(-45deg) translateY(100%);
+}
+
+button{
+    padding: 7.5px 100px;
+    font-size: 25px;
+    backdrop-filter: blur(10px);
+    outline: none;
+    width: 150px;
+    height: auto;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem;
+    transition: all 0.3s ease;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+    overflow: hidden;
+    cursor: pointer;
+    border: none;
+}
+button::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(45deg, transparent, rgba(0, 0, 0, 0.1), transparent);
+    top: -100%;
+    left: -100%;
+    transition: all 0.5s ease;
+}
+
+button:hover::before {
+    top: 100%;
+    left: 100%;
+}
+.wrapInputLabel{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    text-align: left;
+    width: 100%;
+    position: relative;
+}
+.eye{
+    position: absolute;
+    right: 10px;
+    bottom: 12px;
+}
+.eye:hover{
+    cursor: pointer;
+    opacity: 1;
+}
+.wrapInputLabel input{
+    padding: 8px 10px;
+    border-bottom: 2px solid var(--Black);
+    border: none;
+
+}
