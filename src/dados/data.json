@@ -8,145 +8,139 @@
     {
         "id": 2,
         "desc": "Grand Theft Auto V",
-        "imagem": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/271590/header.jpg",
+        "imagem": "../../public/gtav.jpg",
         "valor": 0
     },
     {
         "id": 3,
         "desc": "Rust",
-        "imagem": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/252490/header.jpg",
+        "imagem": "../../public/rust.jpg",
         "valor": 0
     },
     {
         "id": 4,
         "desc": "EA SPORTS FC 25",
-        "imagem": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2669320/header.jpg",
+        "imagem": "../../public/fc25.jpg",
         "valor": 0
     },
     {
         "id": 5,
         "desc": "Forza Horizon 5",
-        "imagem": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1551360/header.jpg",
+        "imagem": "../../public/fh5.jpeg",
         "valor": 0
     },
     {
         "id": 6,
         "desc": "Terraria",
-        "imagem": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/105600/header.jpg",
+        "imagem": "../../public/terraria.jpg",
         "valor": 0
     },
     {
         "id": 7,
         "desc": "Euro Truck Simulator 2",
-        "imagem": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/227300/header.jpg",
+        "imagem": "../../public/ets2.webp",
         "valor": 0
     },
     {
         "id": 8,
         "desc": "Phasmophobia",
-        "imagem": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/739630/header.jpg",
+        "imagem": "../../public/phasmophobia.jpg",
         "valor": 0
     },
     {
         "id": 9,
         "desc": "Lethal Company",
-        "imagem": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1966720/header.jpg",
+        "imagem": "../../public/lethalcompany.jpg",
         "valor": 0
     },
     {
         "id": 10,
-        "desc": "The Forest",
-        "imagem": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/242760/header.jpg",
+        "desc": "Sons of the Forest",
+        "imagem": "../../public/sonsoftheforest.jpg",
         "valor": 0
     },
     {
         "id": 11,
-        "desc": "Sons of the Forest",
-        "imagem": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1326470/header.jpg",
+        "desc": "Red Dead Redemption 2",
+        "imagem": "../../public/rdr2.jpg",
         "valor": 0
     },
     {
         "id": 12,
-        "desc": "Red Dead Redemption 2",
-        "imagem": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1174180/header.jpg",
+        "desc": "Tom Clancy's Rainbow Six Siege",
+        "imagem": "../../public/r6.jpg",
         "valor": 0
     },
     {
         "id": 13,
-        "desc": "Tom Clancy's Rainbow Six Siege",
-        "imagem": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/359550/header.jpg",
+        "desc": "Apex Legends",
+        "imagem": "../../public/apex.jpg",
         "valor": 0
     },
     {
         "id": 14,
-        "desc": "Apex Legends",
-        "imagem": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1172470/header.jpg",
+        "desc": "Dead by Daylight",
+        "imagem": "../../public/dbd.jpg",
         "valor": 0
     },
     {
         "id": 15,
-        "desc": "Dead by Daylight",
-        "imagem": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/381210/header.jpg",
+        "desc": "Project Zomboid",
+        "imagem": "../../public/projetctzomboid.jpg",
         "valor": 0
     },
     {
         "id": 16,
-        "desc": "Project Zomboid",
-        "imagem": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/108600/header.jpg",
+        "desc": "Geometry Dash",
+        "imagem": "../../public/geometrydash.jpg",
         "valor": 0
     },
     {
         "id": 17,
-        "desc": "Geometry Dash",
-        "imagem": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/322170/header.jpg",
+        "desc": "Hollow Knight",
+        "imagem": "../../public/hollowknight.webp",
         "valor": 0
     },
     {
         "id": 18,
-        "desc": "Hollow Knight",
-        "imagem": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/367520/header.jpg",
+        "desc": "Cyberpunk 2077",
+        "imagem": "../../public/cyberpunk2077.jpg",
         "valor": 0
     },
     {
         "id": 19,
-        "desc": "Cyberpunk 2077",
-        "imagem": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1091500/header.jpg",
+        "desc": "War Thunder",
+        "imagem": "../../public/warthunder.jpg",
         "valor": 0
     },
     {
         "id": 20,
-        "desc": "War Thunder",
-        "imagem": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/236390/header.jpg",
+        "desc": "Among Us",
+        "imagem": "../../public/amongus.jpg",
         "valor": 0
     },
     {
         "id": 21,
-        "desc": "Among Us",
-        "imagem": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/945360/header.jpg",
+        "desc": "Garry's Mod",
+        "imagem": "../../public/garrymod.jpg",
         "valor": 0
     },
     {
         "id": 22,
-        "desc": "Garry's Mod",
-        "imagem": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/4000/header.jpg",
+        "desc": "Sea of Thieves",
+        "imagem": "../../public/seaofthieves.jpg",
         "valor": 0
     },
     {
         "id": 23,
-        "desc": "Sea of Thieves",
-        "imagem": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1172620/header.jpg",
+        "desc": "Valheim",
+        "imagem": "../../public/valheim.jpg",
         "valor": 0
     },
     {
         "id": 24,
-        "desc": "Valheim",
-        "imagem": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/892970/header.jpg",
-        "valor": 0
-    },
-    {
-        "id": 25,
         "desc": "Dying Light",
-        "imagem": "https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/239140/header.jpg",
+        "imagem": "../../public/dying light.jpg",
         "valor": 0
     }
 ]
