@@ -1,12 +1,39 @@
-:root{
-    --pretoazul: #22223B;
-    --cinzaescuro: #4A4E69;
-    --cinzaclaro: #9A8C98;
-    --marromclaro: 201, 173, 167;
-    --bege: 242, 233, 228;
-    --errorbg: lightpink;
-    --texto: #ffffff;
-    --dark: #00000000;
+:root {
+  /* Cores principais */
+  --primary: #3b82f6;
+  --primary-hover: #2563eb;
+  --secondary: #6366f1;
+
+  /* Fundo */
+  --background: #0f172a;
+  --background-secondary: #1e293b;
+  --card-background: #1e293b;
+
+  /* Texto */
+  --text-primary: #ffffff;
+  --text-secondary: #cbd5e1;
+  --text-muted: #94a3b8;
+
+  /* Navbar */
+  --navbar-background: #111827;
+  --navbar-text: #ffffff;
+  --navbar-hover: #3b82f6;
+
+  /* Bordas */
+  --border-color: #334155;
+
+  /* Estados */
+  --success: #22c55e;
+  --warning: #f59e0b;
+  --error: #ef4444;
+
+  /* Sombras */
+  --shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+
+  /* Espaçamentos */
+  --radius: 12px;
+  --transition: 0.3s ease;
+  
 }
 
 
@@ -14,17 +41,23 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family:"Roboto", sans-serif;;
+    font-family:"Roboto", sans-serif;
 }
+body{
 
-
+    background-color: #1b2838; 
+    background-image: linear-gradient(to bottom, #1b2838, #171a21); 
+    background-attachment: fixed; 
+    color: #c7d5e0; 
+}
+h1, h2{
+    text-align: center;
+    color: #ffffff;
+    margin-top: 20px;
+}
 .wrap{
-    display: flex;
-    flex-wrap: wrap;
+     display: flex;
     width: 100%;
-    height: auto;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
     padding: 20px;
 }
@@ -32,8 +65,166 @@
 
 .center{
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: wrap;       
+    flex-direction: row;   
+    justify-content: center; 
+    gap: 20px;             
+    max-width: 1200px;   
+    width: 100%;
+}
+
+.center .card-text {
+    color: #66c0f4 !important;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+.center .card{
+    background-color: #16202d !important; 
+    border: none !important; 
+    border-radius: 0px !important; 
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4); 
+    transition: transform 0.2s ease, background-color 0.2s ease;
+}
+.center .card:hover{
+    transform: translateY(-5px); 
+    background-color: #1b2838 !important; 
+    cursor: pointer;
+}
+.center .adicionar {
+    background-color: #5c7e10 !important;
+    background-image: linear-gradient(to bottom, #5c7e10, #3a520a) !important;
+    border: none !important;
+    border-radius: 2px !important;
+    color: #d2efff !important; 
+    font-size: 13px;
+    font-weight: bold;
+    width: 100%;
+    text-align: center;
+    padding: 8px 0;
+    transition: background 0.1s;
+}
+.center .card-img-top{
+    border-radius: 0px !important;
+    height: 150px;
+    object-fit: cover;
+}
+.card .card-title{
+    color: #afafaf !important;
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.navBar{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    display: flex;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    gap: 100px;
+
+    padding: 20px 40px;
+    height: 75px;
+
+    background: linear-gradient(
+        90deg,
+        #171a21 0%,
+        #1b2838 100%
+    );
+
+    border-bottom: 1px solid #2a475e;
+
+    box-shadow: 0 3px 15px rgba(0,0,0,0.3);
+}
+
+.navBar .brand{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.navBar img{
+    width: 100px;
+    height: auto;
+}
+
+.navBar .nav-link{
+    color: white;
+    text-decoration: none;
+
+    font-size: 28px;
+    font-weight: 700;
+
+    letter-spacing: 2px;
+}
+
+.navBar .nav-links{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navBar .seila{
+    position: relative;
+
+    color: #c7d5e0;
+    text-decoration: none;
+
+    padding: 10px 15px;
+
+    font-size: 15px;
+    font-weight: 600;
+
+    transition: .25s;
+}
+
+.navBar .seila::after{
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    bottom: 0;
+
+    width: 0%;
+    height: 2px;
+
+    background: #66c0f4;
+
+    transition: .3s;
+}
+
+.navBar .seila:hover{
+    color: #66c0f4;
+}
+
+.navBar .seila:hover::after{
+    width: 100%;
+}
+
+.navBar .nav-link:hover{
+    cursor: pointer;
+}
+.search-container{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#buscarJogo{
+    width: 230px;
+    height: 36px;
+    padding: 0 12px;
+    border: 1px solid #000;
+    border-radius: 3px;
+    background: linear-gradient(90deg,#5a7c9c,#316282);
+    color: white;
+    font-size: 14px;
+    outline: none;
+    box-shadow:  2px 5px 10px rgba(33, 60, 100, 0.61);
+}
+
+#buscarJogo::placeholder{
+    color: #c7d5e0;
 }

@@ -7,9 +7,9 @@
 body {
   font-family: 'Roboto', sans-serif;
   line-height: 1.4;
-  color: #111;
-  background: #fff;
-  padding: 20px;
+  color: #c7d5e0;
+  background: #1b2838;
+  padding: 0;
 }
 
 a {
@@ -28,13 +28,11 @@ a {
   max-width: 900px;
 }
 
-#lista li {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  gap: 16px;
-  padding: 14px;
-
+#lista li{
+    background: #2a475e;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
 }
 
 h1 {
@@ -81,7 +79,7 @@ h1 {
 }
 
 .item-price {
-  color: #444;
+  color: #e4e4e4;
 }
 
 #lista li button {
@@ -89,7 +87,7 @@ h1 {
   border-radius: 6px;
   padding: 10px 14px;
   background: transparent;
-  color: #111;
+  color: #c2bfbf;
   cursor: pointer;
 }
 
@@ -147,4 +145,96 @@ h1 {
     flex-direction: column;
     align-items: stretch;
   }
+}
+
+.navBar{
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 50px 40px;
+    height: 75px;
+
+    background: linear-gradient(
+        90deg,
+        #171a21 0%,
+        #1b2838 100%
+    );
+
+    border-bottom: 1px solid #2a475e;
+
+    box-shadow: 0 3px 15px rgba(0,0,0,0.3);
+}
+
+.navBar .brand{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+
+.navBar img{
+    width: 100px;
+    height: auto;
+}
+
+.navBar .nav-link{
+    color: white;
+    text-decoration: none;
+
+    font-size: 28px;
+    font-weight: 700;
+
+    letter-spacing: 2px;
+}
+
+.navBar .nav-links{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.navBar .seila{
+    position: relative;
+
+    color: #c7d5e0;
+    text-decoration: none;
+
+    padding: 20px 15px;
+
+    font-size: 15px;
+    font-weight: 600;
+
+    transition: .25s;
+}
+
+.navBar .seila::after{
+    content: "";
+
+    position: absolute;
+
+    left: 0;
+    bottom: 0;
+
+    width: 0%;
+    height: 2px;
+
+    background: #66c0f4;
+
+    transition: .3s;
+}
+
+.navBar .seila:hover{
+    color: #66c0f4;
+}
+
+.navBar .seila:hover::after{
+    width: 100%;
+}
+
+.navBar .nav-link:hover{
+    cursor: pointer;
 }
