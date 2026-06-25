@@ -35,7 +35,7 @@
     box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.3);
 }
 body{
-    background-image: url(/public/guts.jpg);
+    background: linear-gradient(to bottom,  rgba(33, 61, 87, 0.7) 0%, rgba(27, 40, 56, 0.95) 500px);
     color: var(--Onyx);
     overflow-x: hidden;
     min-height: 100vh;
@@ -66,11 +66,19 @@ body{
     box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
     left: 600px;
 }   
-.container
+
 .round{
     position: absolute;
-    top: 4%;
+    top: 40px;
+    left: -1090px;
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    letter-spacing: 15px;
+    color: white;
+
 }
+
 label{
     font-family:Arial, Helvetica, sans-serif;
 
