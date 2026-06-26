@@ -49,6 +49,7 @@ body{
     background-image: linear-gradient(to bottom, #1b2838, #171a21); 
     background-attachment: fixed; 
     color: #c7d5e0; 
+
 }
 h1, h2{
     text-align: center;
@@ -216,4 +217,50 @@ h1, h2{
 
 #buscarJogo::placeholder{
     color: #c7d5e0;
+}
+.hero{
+    width: auto;
+    height: 420px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-right: 75px;
+    padding-left: 50px;
+    margin-top: 50px;
+    margin-bottom: -250px;
+}
+.hero-text{
+    text-align: right;
+    padding-right: 500px;
+    margin-right: 0px;
+}
+.hero-text button {
+    right: 1000px;
+}
+.hero-text h1{
+    color: white;
+    font-size: 55px;
+}
+.hero-text h1 .colorido{
+    color: blue;
+}
+.hero-text p{
+    color: #c7d5e0;
+    font-size: 22px;
+    margin: 50px;
+}
+.hero-imagem{
+    display: flex;
+    gap: 15px;
+}
+.hero-imagem img{
+    width: 170px;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 10px;
+    transform: skewX(-10deg);
+    transition: 0.3s;
+}
+.hero-imagem img:hover{
+    transform: skewX(-10deg) scale(1.05);
 }

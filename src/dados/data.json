@@ -173,5 +173,40 @@
         "imagem": "../../public/cuphead.jpg",
         "gratuito": false,
         "valor": 29.99
+    },
+    {
+        "id": 26,
+        "desc": "ELDEN RING",
+        "imagem": "../../public/eldenring.jpg",
+        "gratuito": false,
+        "valor": 229.99
+    },
+    {
+        "id": 27,
+        "desc": "The Witcher 3: Wild Hunt",
+        "imagem": "../../public/thewitcher.jpg",
+        "gratuito": false,
+        "valor": 79.99
+    },
+    {
+        "id": 28,
+        "desc": "The Forest",
+        "imagem": "../../public/theforest.jpg",
+        "gratuito": false,
+        "valor": 37.99
+    },
+    {
+        "id": 29,
+        "desc": "Portal 2",
+        "imagem": "../../public/portal2.jpg",
+        "gratuito": false,
+        "valor": 19.99
+    },
+    {
+        "id": 30,
+        "desc": "Left 4 Dead 2",
+        "imagem": "../../public/left4dead.jpg",
+        "gratuito": false,
+        "valor": 32.99
     }
 ]
