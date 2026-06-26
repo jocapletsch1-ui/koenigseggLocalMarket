@@ -13,12 +13,11 @@
     
 </head>
 <body>
-    <div class="round">
-        <img width="100px" class="logo" src="../../public/steamlogo.png" alt="Steam logo">
-        <h1>STEAM</h1>
-    </div>
     
     <div class="container">
+        <div class="round">
+            <img style="filter: invert(1);"width="100px" class="logo" src="../../public/steamlogo.png" alt="Steam logo">
+        </div>
         <div class="wrapInputLabel">
             <label for="nome">Nome</label>
             <input type="text" placeholder="Insira o nome do usuário:" id="nome">
@@ -31,7 +30,7 @@
                     </div>
                 </div>
                 <button class="btnLogin" onclick="login()">Login</button>
-            </div>
+    </div>
     <div class="errorDiv" id="errorModal">
         <h3>Usuário ou senha incorretos!</h3>
         <button onclick="fecharError()">Tentar Novamente</button>
